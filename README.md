@@ -33,23 +33,30 @@ npm run dev
 ## Current vs. Expected behavior
 
 **Example:**
+<br />
 Set the `<title>` tag to "My App."
 `<title>My App</title>`
 
 **Expected behavior:**
+<br />
 The `<title>` tag should display what the user specified in the `<title>` tag and be visible in the browser's tab as well as in the Inspect Element.
 <img width="180" alt="image" src="https://github.com/vercel/next.js/assets/71577909/bd2c9361-6904-4e02-ae6c-aef9ea4c0893">
+<br />
 <img width="422" alt="image" src="https://github.com/vercel/next.js/assets/71577909/ae65881a-2404-44f7-aa84-e604e3773ae4">
 
 **Actual behavior:**
+<br />
 The `<title>` tag is empty. In the Inspect Element, it appears as `<title></title>` instead of `<title>My App</title>`.
 <img width="181" alt="image" src="https://github.com/vercel/next.js/assets/71577909/198db85f-1b1f-4fe7-9524-5af950504c8b">
+<br />
 <img width="423" alt="image" src="https://github.com/vercel/next.js/assets/71577909/3dce7f4f-2eba-4cc2-b027-6675eac676a2">
 
 Lighthouse also reports that the `<title>` is missing.
+
 <img width="397" alt="image" src="https://github.com/vercel/next.js/assets/71577909/9d4927b5-5158-4abe-9c19-24b04fdf0768">
 
 However, in the page source, the `<title>` tag is still correct.
+
 <img width="413" alt="image" src="https://github.com/vercel/next.js/assets/71577909/7d92c2ce-f305-4407-89bb-347100eeb093">
 
 ## Verify canary release
