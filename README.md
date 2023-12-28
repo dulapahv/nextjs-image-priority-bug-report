@@ -11,16 +11,22 @@ git clone https://github.com/dulapahv/nextjs-image-priority-bug-report.git
 2.
 
 ```
-npm install
+cd nextjs-image-priority-bug-report
 ```
 
 3.
 
 ```
-npm run dev
+npm install
 ```
 
 4.
+
+```
+npm run dev
+```
+
+5.
 
 [http://localhost:3000/](http://localhost:3000/)
 
